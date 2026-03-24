@@ -1,0 +1,14 @@
+# Compiled files
+/bin/
+/build/
+
+# Coverage report
+/coverage/
+*.gcda
+*.gcno
+
+# Database file
+*.db
+
+# IDE files
+.vscode/
