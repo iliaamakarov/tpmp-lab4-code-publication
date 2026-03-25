@@ -28,22 +28,22 @@ All interactions with the program are built inside the makefile:
 ---
 
 ## Contents
-| Folder     | Files            | Purpose                                                                     |   |   |
-|------------|------------------|-----------------------------------------------------------------------------|---|---|
-| /workflows | ci.yml           | Automated testing through github actions to ensure compilation and running. |   |   |
-| /database  | schema.sql       | Defines the basic structure for creating databases with the app.            |   |   |
-|            | seed.sql         | Contains a predefined database for testing purposes.                        |   |   |
-| /include   | auth.h           | Contains classes for authorization in the database.                         |   |   |
-|            | database.h       | Contains a wrapper class for working with sqlite3 databases.                |   |   |
-|            | queries.h        | Functions for working with a database defined in our variant of the lab.    |   |   |
-| /src       | main.cpp         | Main program loop                                                           |   |   |
-|            | database.cpp     | Definitions for database.h                                                  |   |   |
-|            | auth.cpp         | Definitions for auth.h                                                      |   |   |
-|            | queries.cpp      | Definitions for queries.h                                                   |   |   |
-| /tests     | main_test.cpp    | Runs tests using CUnit interface for all basic interactions with the app.   |   |   |
-|            | test_auth.cpp    | Definitions for authorization test functions used by main_test.cpp          |   |   |
-|            | test_queries.cpp | Definitions for database interactions test functions used by main_test.cpp  |   |   |
-| /          | Makefile         | Makefile for interacting with the program.                                  |   |   |
+| Folder     | Files            | Purpose                                                                     | 
+|------------|------------------|-----------------------------------------------------------------------------|
+| /workflows | ci.yml           | Automated testing through github actions to ensure compilation and running. |
+| /database  | schema.sql       | Defines the basic structure for creating databases with the app.            |
+|            | seed.sql         | Contains a predefined database for testing purposes.                        |
+| /include   | auth.h           | Contains classes for authorization in the database.                         |
+|            | database.h       | Contains a wrapper class for working with sqlite3 databases.                |
+|            | queries.h        | Functions for working with a database defined in our variant of the lab.    |
+| /src       | main.cpp         | Main program loop                                                           |
+|            | database.cpp     | Definitions for database.h                                                  |
+|            | auth.cpp         | Definitions for auth.h                                                      |
+|            | queries.cpp      | Definitions for queries.h                                                   |
+| /tests     | main_test.cpp    | Runs tests using CUnit interface for all basic interactions with the app.   |
+|            | test_auth.cpp    | Definitions for authorization test functions used by main_test.cpp          |
+|            | test_queries.cpp | Definitions for database interactions test functions used by main_test.cpp  |
+| /          | Makefile         | Makefile for interacting with the program.                                  |
 
 ---
 
