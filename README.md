@@ -1,4 +1,4 @@
-# Code publication repository for lab 4
+# __Code publication repository for lab 4__
 # "Fishing flotilla management system"
 
 --- 
